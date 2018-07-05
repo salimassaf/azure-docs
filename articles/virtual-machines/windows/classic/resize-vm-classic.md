@@ -34,6 +34,12 @@ You must configure Azure PowerShell to work with classic Azure resources. Follow
 3. Type in the password for your account. 
 4. Click **Sign in**. 
 
+## Select your subscription
+Select the subscription your VM belongs to. 
+
+1. At the PowerShell prompt, type `Get-AzureSubscription` and click **Enter** to get a list of subscriptions available. 
+2. At the PowerShell prompt, type `Select-AzureSubscription "<SubscriptionName>"` and click **Enter** 
+
 ## Resize in the same hardware cluster
 To resize a VM to a size available in the hardware cluster hosting the VM, perform the following steps.
 
